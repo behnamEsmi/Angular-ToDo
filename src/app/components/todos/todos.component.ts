@@ -5,7 +5,7 @@ import { Todo } from 'src/app/models/Todo';
   templateUrl: './todos.component.html',
   styleUrls: ['./todos.component.css']
 })
-export class TodosComponent implements OnInit {
+export class TodosComponent     implements OnInit {
 
   todos:Todo[]=[];
   inputTodo:string='';
